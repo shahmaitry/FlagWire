@@ -1,0 +1,21 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.MaterialComponents.Light.NoActionBar.Bridge">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="FullScreen" parent="Theme.MaterialComponents.Light.NoActionBar.Bridge">
+        <item name="windowNoTitle">true</item>
+        <item name="android:windowFullscreen">true</item>
+    </style>
+
+    <style name="Material_Button" parent="Theme.MaterialComponents.Light.NoActionBar.Bridge">
+        <item name="android:backgroundTint" tools:targetApi="lollipop">@color/amber_200</item>
+        <item name="android:background">@drawable/edittext_bg</item>
+        <item name="android:textSize">@dimen/text_medium</item>
+    </style>
+
+</resources>
