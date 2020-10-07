@@ -14,6 +14,7 @@ class SplashActivity : AppCompatActivity() {
         Handler().postDelayed(Runnable {
 
             startActivity(Intent(this,LocationSelectActivity::class.java))
+            //hello there
 
         },3000)
 
