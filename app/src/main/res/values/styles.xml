@@ -12,10 +12,9 @@
         <item name="android:windowFullscreen">true</item>
     </style>
 
-    <style name="Material_Button" parent="Theme.MaterialComponents.Light.NoActionBar.Bridge">
-        <item name="android:backgroundTint" tools:targetApi="lollipop">@color/amber_200</item>
-        <item name="android:background">@drawable/edittext_bg</item>
-        <item name="android:textSize">@dimen/text_medium</item>
+    <style name="AppTheme.RoundedCornerMaterialButton" parent="Widget.AppCompat.Button.Colored">
+        <item name="android:background">@drawable/bg_button</item>
+        <item name="android:backgroundTint" tools:targetApi="lollipop">@color/color_bg_button</item>
     </style>
 
 </resources>

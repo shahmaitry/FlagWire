@@ -1,3 +1,7 @@
 <resources>
     <string name="app_name">FlagWire</string>
+    <string name="intro_one">Flag Notification App</string>
+    <string name="intro_second">For people with wind</string>
+    <string name="login">LOGIN</string>
+    <string name="sign_up">sign up</string>
 </resources>

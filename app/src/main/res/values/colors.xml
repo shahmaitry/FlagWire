@@ -10,6 +10,8 @@
     <color name="icon_gray_selected">#9b9b9b</color>
     <color name="divider_gray">#c2c2c2</color>
 
+    <color name="color_bg_button">#023C5D</color>
+
     <!--Font colors -->
     <color name="font_hint">#c2c2c2</color>
     <color name="font_gray_dark">#616A74</color>
