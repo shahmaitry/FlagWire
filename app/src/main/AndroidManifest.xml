@@ -12,9 +12,9 @@
         <activity
             android:name=".activity.LoginActivity"
             android:theme="@style/FullScreen" />
-        <activity android:name=".activity.IntroActivity" />
+        <activity android:name=".activity.MainActivity" />
         <activity
-            android:name=".activity.MainActivity"
+            android:name=".activity.IntroActivity"
             android:theme="@style/FullScreen">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />

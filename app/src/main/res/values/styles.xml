@@ -12,9 +12,11 @@
         <item name="android:windowFullscreen">true</item>
     </style>
 
-    <style name="AppTheme.RoundedCornerMaterialButton" parent="Widget.AppCompat.Button.Colored">
-        <item name="android:background">@drawable/bg_button</item>
-        <item name="android:backgroundTint" tools:targetApi="lollipop">@color/color_bg_button</item>
+
+    <style name="BrandedSwitch.control" parent="Theme.AppCompat.Light">
+        <!-- active thumb & track color (30% transparency) -->
+        <item name="colorControlActivated">@color/teal_A200</item>
+        <item name="colorSwitchThumbNormal">@color/black</item>
     </style>
 
 </resources>

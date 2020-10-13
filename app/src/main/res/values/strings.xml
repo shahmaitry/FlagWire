@@ -4,4 +4,12 @@
     <string name="intro_second">For people with wind</string>
     <string name="login">LOGIN</string>
     <string name="sign_up">sign up</string>
+    <string name="sign_in">sign in</string>
+    <string name="email_userid">Enter your email ID or User name</string>
+    <string name="email">akshay@gmail.com</string>
+    <string name="password">Password</string>
+    <string name="password_hint">*****</string>
+    <string name="remember_me">Remember me</string>
+    <string name="forget_password">Forget Password?</string>
+    <string name="or">OR</string>
 </resources>
