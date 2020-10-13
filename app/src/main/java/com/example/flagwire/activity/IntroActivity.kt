@@ -20,7 +20,6 @@ class IntroActivity : AppCompatActivity() {
         btn_login = findViewById(R.id.btn_login)
         btn_login.setOnClickListener {
             startActivity(Intent(this,LoginActivity::class.java))
-            finish()
         }
     }
 }
