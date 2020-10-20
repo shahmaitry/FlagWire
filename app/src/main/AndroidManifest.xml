@@ -2,6 +2,8 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.example.flagwire">
 
+    <uses-permission android:name="android.permission.INTERNET" />
+
     <application
         android:allowBackup="true"
         android:icon="@mipmap/ic_app_logo_round"
@@ -9,7 +11,9 @@
         android:roundIcon="@mipmap/ic_app_logo_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".activity.RegistrationActivity"></activity>
+        <activity android:name=".activity.VerifyAccountActivity"></activity>
+        <activity android:name=".activity.ForgetPassActivity" />
+        <activity android:name=".activity.RegistrationActivity" />
         <activity
             android:name=".activity.LoginActivity"
             android:theme="@style/FullScreen" />

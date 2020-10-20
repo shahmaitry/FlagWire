@@ -2,6 +2,7 @@ package com.example.flagwire.retrofit
 
 import com.example.flagwire.model.getdata.GetdataResponse
 import com.example.flagwire.model.registration.RegistrationResponse
+import okhttp3.ResponseBody
 import retrofit2.Call
 import retrofit2.http.*
 
@@ -13,6 +14,22 @@ interface ApiEndpointInterface {
     @Headers("Apikey: Mobile")
     @FormUrlEncoded
     @POST("register")
-    fun registration(@FieldMap queryMap: Map<String, String>): Call<RegistrationResponse>
+    fun registration(@FieldMap queryMap: Map<String, String>): Call<ResponseBody>
 
+
+    @Headers("Apikey: Mobile")
+    @FormUrlEncoded
+    @POST("login")
+    fun login(@FieldMap queryMap: Map<String, String>): Call<ResponseBody>
+
+
+    @Headers("Apikey: Mobile")
+    @FormUrlEncoded
+    @POST("forgetPassword")
+    fun forget_password(@FieldMap queryMap: Map<String, String>): Call<ResponseBody>
+
+    @Headers("Apikey: Mobile")
+    @FormUrlEncoded
+    @POST("verifyOpt")
+    fun verify_account(@FieldMap queryMap: Map<String, String>): Call<ResponseBody>
 }

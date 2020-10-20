@@ -57,6 +57,7 @@
 
 
         <com.google.android.material.button.MaterialButton
+            android:id="@+id/btn_sign_up"
             android:layout_width="@dimen/_210sdp"
             android:layout_height="@dimen/_55sdp"
             android:layout_below="@+id/btn_login"

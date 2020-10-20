@@ -44,6 +44,7 @@
         android:textSize="@dimen/text_large" />
 
     <com.google.android.material.textfield.TextInputEditText
+        android:id="@+id/et_login_email"
         android:layout_width="match_parent"
         android:layout_height="@dimen/_45sdp"
         android:layout_marginStart="@dimen/_25sdp"
@@ -69,6 +70,7 @@
         android:textSize="@dimen/text_large" />
 
     <com.google.android.material.textfield.TextInputEditText
+        android:id="@+id/et_login_password"
         android:layout_width="match_parent"
         android:layout_height="@dimen/_45sdp"
         android:layout_marginStart="@dimen/_25sdp"
@@ -121,11 +123,12 @@
 
 
         <com.google.android.material.textview.MaterialTextView
-            android:layout_width="match_parent"
+            android:id="@+id/txt_forget_pass"
+            android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="@string/forget_password"
-            android:layout_gravity="center"
-            android:gravity="end"
+            android:layout_gravity="end"
+            android:gravity="center"
             android:layout_marginEnd="@dimen/_25sdp"
             android:textSize="@dimen/text_medium"
             android:textColor="@color/black"/>

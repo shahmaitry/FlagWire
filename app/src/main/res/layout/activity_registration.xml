@@ -44,6 +44,7 @@
             android:textSize="@dimen/text_large" />
 
         <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/et_register_fullname"
             android:layout_width="match_parent"
             android:layout_height="@dimen/_45sdp"
             android:layout_marginStart="@dimen/_25sdp"
@@ -69,6 +70,7 @@
             android:textSize="@dimen/text_large" />
 
         <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/et_register_email_id"
             android:layout_width="match_parent"
             android:layout_height="@dimen/_45sdp"
             android:layout_marginStart="@dimen/_25sdp"
@@ -94,6 +96,7 @@
             android:textSize="@dimen/text_large" />
 
         <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/et_register_password"
             android:layout_width="match_parent"
             android:layout_height="@dimen/_45sdp"
             android:layout_marginStart="@dimen/_25sdp"
@@ -108,8 +111,35 @@
             android:textColor="@color/black"
             android:textColorHint="@color/font_hint" />
 
+
+        <com.google.android.material.textview.MaterialTextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/_30sdp"
+            android:layout_marginTop="@dimen/_10sdp"
+            android:text="@string/mobile_number"
+            android:textColor="@color/black"
+            android:textSize="@dimen/text_large" />
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/et_register_mobile_number"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/_45sdp"
+            android:layout_marginStart="@dimen/_25sdp"
+            android:layout_marginTop="@dimen/_5sdp"
+            android:layout_marginEnd="@dimen/_30sdp"
+            android:background="@drawable/round_edit_text"
+            android:hint="@string/password_hint"
+            android:inputType="number"
+            android:maxLength="10"
+            android:paddingStart="@dimen/_15sdp"
+            android:paddingEnd="@dimen/_10sdp"
+            android:singleLine="true"
+            android:textColor="@color/black"
+            android:textColorHint="@color/font_hint" />
+
         <com.google.android.material.button.MaterialButton
-            android:id="@+id/btn_login"
+            android:id="@+id/btn_sign_up"
             android:layout_width="match_parent"
             android:layout_height="@dimen/_55sdp"
             app:cornerRadius="@dimen/_25sdp"
@@ -120,6 +150,10 @@
             android:textSize="@dimen/text_small"
             app:backgroundTint="@color/color_bg_button"
             android:layout_marginTop="@dimen/_20sdp" />
+
+
+
+
 
         <LinearLayout
             android:layout_width="match_parent"
@@ -187,7 +221,7 @@
             <com.google.android.material.textview.MaterialTextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="Not Registered yet? Sign up!"
+                android:text="Already Registered? Login here!"
                 android:layout_gravity="center"
                 android:gravity="center"
                 android:textSize="@dimen/text_medium"

@@ -9,6 +9,7 @@ import com.google.android.material.button.MaterialButton
 class IntroActivity : AppCompatActivity() {
 
     private lateinit var btn_login : MaterialButton
+    private lateinit var btn_sign_up :MaterialButton
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
@@ -18,8 +19,13 @@ class IntroActivity : AppCompatActivity() {
 
     private fun init() {
         btn_login = findViewById(R.id.btn_login)
+        btn_sign_up = findViewById(R.id.btn_sign_up)
         btn_login.setOnClickListener {
             startActivity(Intent(this,LoginActivity::class.java))
+        }
+
+        btn_sign_up.setOnClickListener {
+            startActivity(Intent(this,RegistrationActivity::class.java))
         }
     }
 }
