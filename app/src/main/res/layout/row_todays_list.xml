@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/_120sdp"
+    android:layout_margin="@dimen/_10sdp"
+    android:background="@drawable/dashboard_second">
+
+
+    <com.google.android.material.textview.MaterialTextView
+        android:id="@+id/txt_flag_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/_15sdp"
+        android:layout_marginEnd="@dimen/_15sdp"
+        android:layout_marginTop="@dimen/_15sdp"
+        android:gravity="center"
+        android:textSize="@dimen/text_large"
+        android:textColor="@color/white"/>
+
+    <com.google.android.material.textview.MaterialTextView
+        android:id="@+id/txt_flag_hosting_date"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/_15sdp"
+        android:layout_marginEnd="@dimen/_15sdp"
+        android:layout_marginTop="@dimen/_5sdp"
+        android:gravity="center"
+        android:layout_below="@+id/txt_flag_name"
+        android:textSize="@dimen/text_large"
+        android:textColor="@color/white" />
+
+
+    <com.google.android.material.textview.MaterialTextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/_15sdp"
+        android:layout_marginEnd="@dimen/_15sdp"
+        android:gravity="center"
+        android:layout_marginBottom="@dimen/_10sdp"
+        android:layout_alignParentBottom="true"
+        android:textSize="@dimen/text_large"
+        android:textColor="@color/white"
+        android:alpha="0.5"
+        android:text="************"/>
+
+
+</RelativeLayout>

@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
     package="com.example.flagwire">
 
     <uses-permission android:name="android.permission.INTERNET" />
@@ -12,28 +13,47 @@
         android:label="@string/app_name"
         android:roundIcon="@mipmap/ic_app_logo_round"
         android:supportsRtl="true"
-        android:theme="@style/AppTheme">
-        <activity android:name=".activity.NotificationActivity"></activity>
-        <activity android:name=".activity.ContactUsActivity" />
-        <activity android:name=".activity.TermsConditionActivity" />
-        <activity android:name=".activity.AboutUsActivity" />
-        <activity android:name=".activity.ProfileActivity" />
-        <activity android:name=".activity.IntroActivity" />
-        <activity android:name=".activity.LocationActivity" />
-        <activity android:name=".activity.FinalActivity" />
-        <activity android:name=".activity.FlagListActivity" />
-        <activity android:name=".activity.DescriptionActivity" />
-        <activity android:name=".activity.ResetActivity" />
-        <activity android:name=".activity.VerifyAccountActivity" />
-        <activity android:name=".activity.ForgetPassActivity" />
-        <activity android:name=".activity.RegistrationActivity" />
+        android:requestLegacyExternalStorage="true"
+        android:usesCleartextTraffic="true"
+        android:theme="@style/AppTheme"
+        tools:targetApi="m">
+        <activity android:name=".activity.NotificationActivity"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".activity.ContactUsActivity"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".activity.TermsConditionActivity"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".activity.AboutUsActivity"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".activity.ProfileActivity"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".activity.IntroActivity"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".activity.LocationActivity"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".activity.FinalActivity"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".activity.FlagListActivity"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".activity.DescriptionActivity"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".activity.ResetActivity"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".activity.VerifyAccountActivity"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".activity.ForgetPassActivity"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".activity.RegistrationActivity"
+            android:screenOrientation="portrait"/>
         <activity
             android:name=".activity.LoginActivity"
-            android:theme="@style/FullScreen" />
+            android:theme="@style/FullScreen"
+            android:screenOrientation="portrait"/>
         <activity android:name=".activity.MainActivity" />
         <activity
             android:name=".activity.SplashActivity"
-            android:theme="@style/FullScreen">
+            android:theme="@style/FullScreen"
+            android:screenOrientation="portrait">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 

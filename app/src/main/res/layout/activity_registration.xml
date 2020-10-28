@@ -214,7 +214,7 @@
                 android:id="@+id/iv_fb_login"
                 android:layout_width="@dimen/_40sdp"
                 android:layout_height="@dimen/_40sdp"
-                android:src="@drawable/ic_facebook"/>
+                android:src="@drawable/ic_facebook_new"/>
 
             <androidx.appcompat.widget.AppCompatImageView
                 android:id="@+id/iv_gmail_login"

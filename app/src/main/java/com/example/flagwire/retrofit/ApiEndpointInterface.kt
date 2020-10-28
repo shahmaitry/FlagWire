@@ -2,7 +2,6 @@ package com.example.flagwire.retrofit
 
 import com.example.flagwire.model.category.CategoryResponse
 import com.example.flagwire.model.profileData.ProfileDataResponse
-import com.example.flagwire.model.registration.RegistrationResponse
 import com.example.flagwire.model.todays_list.TodaysListResponse
 import okhttp3.MultipartBody
 import okhttp3.RequestBody

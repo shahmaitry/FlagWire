@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/dark_bg_light_hint_text"
+    tools:context=".activity.FinalActivity">
+
+
+    <androidx.core.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_60sdp"
+        android:background="@color/custom_color">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:gravity="center"
+            android:layout_marginStart="@dimen/_60sdp"
+            android:layout_marginEnd="@dimen/_40sdp"
+            android:layout_centerVertical="true">
+
+            <com.google.android.material.textview.MaterialTextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/white"
+                android:textStyle="bold"
+                android:layout_gravity="center"
+                android:textSize="@dimen/text_medium"
+                android:text="Your Headline 1"/>
+
+
+            <com.google.android.material.textview.MaterialTextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/white"
+                android:textStyle="bold"
+                android:layout_gravity="center"
+                android:textSize="@dimen/text_small"
+                android:text="Your Headline 2"/>
+
+        </LinearLayout>
+
+        <androidx.appcompat.widget.AppCompatImageView
+            android:id="@+id/iv_back"
+            android:layout_width="@dimen/_20sdp"
+            android:layout_height="@dimen/_20sdp"
+            android:src="@drawable/ic_back_arrow"
+            android:layout_centerVertical="true"
+            android:scaleType="fitXY"
+            android:alpha="0.8"
+            android:tint="@color/white"
+            android:layout_marginStart="@dimen/_15sdp"
+            android:background="@android:color/transparent"/>
+
+        <androidx.appcompat.widget.AppCompatImageView
+            android:id="@+id/iv_popup_menu"
+            android:layout_width="@dimen/_20sdp"
+            android:layout_height="@dimen/_20sdp"
+            android:src="@drawable/ic_menu"
+            android:layout_centerVertical="true"
+            android:scaleType="fitXY"
+            android:alpha="0.8"
+            android:layout_alignParentEnd="true"
+            android:layout_marginEnd="@dimen/_15sdp"
+            android:background="@android:color/transparent"/>
+
+    </RelativeLayout>
+
+        <com.google.android.material.textview.MaterialTextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Thank you"
+            android:layout_marginTop="@dimen/_30sdp"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:textStyle="bold"
+            android:textColor="@color/black"
+            android:textSize="@dimen/text_xxxlarge"/>
+
+        <androidx.appcompat.widget.AppCompatImageView
+            android:layout_width="@dimen/_150sdp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="@dimen/_20sdp"
+            android:src="@drawable/checkout_correct"/>
+
+
+        <com.google.android.material.textview.MaterialTextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/thankyou"
+            android:layout_marginTop="@dimen/_30sdp"
+            android:layout_gravity="center"
+            android:layout_marginStart="@dimen/_20sdp"
+            android:layout_marginEnd="@dimen/_20sdp"
+            android:textColor="@color/black"
+            android:textSize="@dimen/text_medium"/>
+
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/btn_thats_it"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/_55sdp"
+            app:cornerRadius="@dimen/_25sdp"
+            android:text="That's it"
+            android:layout_marginStart="@dimen/_25sdp"
+            android:layout_marginEnd="@dimen/_30sdp"
+            android:textColor="@color/font_white"
+            android:textSize="@dimen/text_small"
+            app:backgroundTint="@color/color_bg_button"
+            android:layout_marginTop="@dimen/_20sdp" />
+
+    </LinearLayout>
+    </androidx.core.widget.NestedScrollView>
+
+</RelativeLayout>

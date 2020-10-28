@@ -118,7 +118,7 @@
                     android:layout_centerHorizontal="true"
                     android:visibility="gone"
                     android:layout_marginTop="@dimen/_15sdp"
-                    android:text="No Found"/>
+                    android:text="No flag event today "/>
 
             </RelativeLayout>
 
@@ -151,7 +151,7 @@
                     android:visibility="gone"
                     android:layout_marginTop="@dimen/_50sdp"
                     android:layout_centerInParent="true"
-                    android:text="No Found Upcoming Flags"/>
+                    android:text="No upcoming flag events found"/>
             </RelativeLayout>
 
         </LinearLayout>

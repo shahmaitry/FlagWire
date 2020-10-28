@@ -281,8 +281,6 @@ class RegistrationActivity : AppCompatActivity() {
                         val json = JSONObject(response.body()!!.string())
                         val meassge = json.getString("message")
 
-
-
                         if (meassge.equals("Error Registering or User with Same Details already Exists")){
                             Toast.makeText(this@RegistrationActivity, meassge,Toast.LENGTH_LONG).show()
                         } else if (meassge.equals("success")){

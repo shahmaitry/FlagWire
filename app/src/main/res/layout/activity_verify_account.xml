@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.core.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/test_app_bg"
+    tools:context=".activity.VerifyAccountActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+
+        <androidx.appcompat.widget.AppCompatImageView
+            android:id="@+id/iv_logo"
+            android:layout_width="@dimen/_90sdp"
+            android:layout_height="@dimen/_90sdp"
+            android:layout_gravity="center"
+            android:layout_marginTop="@dimen/_25sdp"
+            android:src="@drawable/ic_flagwire_logo" />
+
+        <com.google.android.material.textview.MaterialTextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="@dimen/_10sdp"
+            android:text="Verify"
+            android:textStyle="bold"
+            android:textColor="@color/black"
+            android:textSize="@dimen/text_xxxlarge" />
+
+        <com.google.android.material.textview.MaterialTextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:layout_marginTop="@dimen/_10sdp"
+            android:layout_marginStart="@dimen/_15sdp"
+            android:layout_marginEnd="@dimen/_15sdp"
+            android:text="We have sent you an email for verification"
+            android:textColor="@color/black"
+            android:textSize="@dimen/text_large" />
+
+
+        <com.goodiebag.pinview.Pinview
+            android:id="@+id/pinview"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:pinWidth="@dimen/_45sdp"
+            app:pinHeight="@dimen/_45sdp"
+            app:pinLength="4"
+            app:cursorVisible="false"
+            app:forceKeyboard="true"
+            app:hint="0"
+            app:textSize="@dimen/text_very_small"
+            android:layout_marginTop="@dimen/_20sdp"
+            app:inputType="number"
+            app:password="false"/>
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/btn_forget_password"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/_55sdp"
+            app:cornerRadius="@dimen/_25sdp"
+            android:text="Verify"
+            android:layout_marginStart="@dimen/_25sdp"
+            android:layout_marginEnd="@dimen/_30sdp"
+            android:textColor="@color/font_white"
+            android:textSize="@dimen/text_small"
+            app:backgroundTint="@color/color_bg_button"
+            android:layout_marginTop="@dimen/_20sdp" />
+
+
+    </LinearLayout>
+</androidx.core.widget.NestedScrollView>
