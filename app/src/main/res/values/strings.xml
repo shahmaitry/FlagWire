@@ -17,4 +17,14 @@
     <string name="smith">Smith</string>
     <string name="mobile_number">Mobile Number</string>
     <string name="sent">Sent</string>
+    <string name="flag_decription">County Durham can refer to the modern ceremonial county, the smaller area of a unitary authority, or the historic county with different boundaries. The largest settlement in the ceremonial county is Darlington, closely followed by Hartlepool, Billingham and Stockton-on-Tees. It borders Tyne and Wear to the north-east, Northumberland to the north</string>
+    <string name="description_one">Select the lists you wish to receive notification for and choose green reminder , red reminders or both</string>
+    <string name="description_second">Green reminders include purchase links and arrive  1 days before each date.</string>
+    <string name="description_third">Red reminders arrive in the  early hours of each date to remind  you to hoist  the relevant flag</string>
+    <string name="thankyou">Thanks for joining Flagwire and signing up for free fla-realted notification. we hope you enjoy the app and find the nonotification useful. if you would like to suggest changes , additions or improvments to the app , please email flagwire@mrflag.com we would love to hear from you</string>
+    <string name="location">This information allows Flagwire to send  you extreme-weather flag warnings and  national mourning notification</string>
+    <string name="facebook_app_id">427845611537620</string>
+    <string name="fb_login_protocol_scheme">fb427845611537620</string>
+    <string name="web_client_id">AIzaSyC-W5jpZtLNRT6944iNS_i8mGbEE4ARlPk</string>
+    <string name="save">SAVE</string>
 </resources>

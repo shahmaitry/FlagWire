@@ -27,6 +27,24 @@ class RetrofitBuilder private constructor() //constructer
         }
 
 
+    val retrofit_open_wether: ApiEndpointInterface
+        get() {
+            val logging = HttpLoggingInterceptor()
+            logging.setLevel(HttpLoggingInterceptor.Level.BODY)
+            val httpClient = OkHttpClient.Builder()
+            httpClient.connectTimeout(10, TimeUnit.MINUTES)
+            httpClient.readTimeout(10, TimeUnit.MINUTES)
+            httpClient.writeTimeout(10, TimeUnit.MINUTES)
+            httpClient.addInterceptor(logging)
+            val retrofit = Retrofit.Builder()
+                .baseUrl(AppUtils.BASE_URL_OPEN_WETHER)
+                .client(httpClient.build())
+                .addConverterFactory(JacksonConverterFactory.create())
+                .build()
+            return retrofit.create(ApiEndpointInterface::class.java)
+        }
+
+
     companion object {
         val instance = RetrofitBuilder()
     }

@@ -60,7 +60,14 @@
         android:textColorHint="@color/font_hint" />
 
 
-    <com.google.android.material.textview.MaterialTextView
+        <com.facebook.login.widget.LoginButton
+            android:id="@+id/login_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:visibility="gone"/>
+
+        <com.google.android.material.textview.MaterialTextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="@dimen/_30sdp"
@@ -84,6 +91,13 @@
         android:singleLine="true"
         android:textColor="@color/black"
         android:textColorHint="@color/font_hint" />
+
+        <com.google.android.gms.common.SignInButton
+            android:id="@+id/google_button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:visibility="gone"
+            android:layout_marginTop="@dimen/_10sdp"/>
 
     <RelativeLayout
         android:layout_width="match_parent"
@@ -178,11 +192,15 @@
             android:orientation="horizontal">
 
             <androidx.appcompat.widget.AppCompatImageView
+                android:id="@+id/iv_fb_login"
                 android:layout_width="@dimen/_40sdp"
                 android:layout_height="@dimen/_40sdp"
                 android:src="@drawable/ic_facebook"/>
 
+
+
             <androidx.appcompat.widget.AppCompatImageView
+                android:id="@+id/iv_gmail_login"
                 android:layout_width="@dimen/_40sdp"
                 android:layout_height="@dimen/_40sdp"
                 android:layout_marginStart="@dimen/_15sdp"
